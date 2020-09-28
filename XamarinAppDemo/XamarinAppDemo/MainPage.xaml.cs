@@ -23,5 +23,10 @@ namespace XamarinAppDemo
         {
             Navigation.PushAsync(new StackLayoutPage());
         }
+
+        private void GridPageButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new GridPage());
+        }
     }
 }

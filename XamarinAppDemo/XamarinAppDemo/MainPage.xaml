@@ -14,6 +14,7 @@
            VerticalOptions="CenterAndExpand" />
         <Button Text="Go First Page" Clicked="FirstPageButton_Clicked"></Button>
         <Button Text="Go StackLayout Page" Clicked="StackLayoutPageButton_Clicked"></Button>
+        <Button Text="Go Grid Page" Clicked="GridPageButton_Clicked"></Button>
     </StackLayout>
 
 </ContentPage>

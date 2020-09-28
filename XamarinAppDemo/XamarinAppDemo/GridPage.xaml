@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             mc:Ignorable="d"
+             Title="Grid Page"
+             x:Class="XamarinAppDemo.GridPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Label BackgroundColor="#000000"></Label>
+            <Label Grid.Column="1" BackgroundColor="#00FF00"></Label>
+            <Label Grid.Column="2" BackgroundColor="#0000FF"></Label>
+            <Label Grid.Row="1" BackgroundColor="#440000"></Label>
+            <Label Grid.Row="1" Grid.Column="1" BackgroundColor="#44FF44"></Label>
+            <Label Grid.Row="1" Grid.Column="2" BackgroundColor="#4444FF"></Label>
+            <Label Grid.Row="2" BackgroundColor="#880000"></Label>
+            <Label Grid.Row="2" Grid.Column="1" BackgroundColor="#88FF88"></Label>
+            <Label Grid.Row="2" Grid.Column="2" BackgroundColor="#8888FF"></Label>
+            <Label Grid.Row="3" BackgroundColor="#CC0000"></Label>
+            <Label Grid.Row="3" Grid.Column="1" BackgroundColor="#CCFFCC"></Label>
+            <Label Grid.Row="3" Grid.Column="2" BackgroundColor="#CCCCFF"></Label>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
