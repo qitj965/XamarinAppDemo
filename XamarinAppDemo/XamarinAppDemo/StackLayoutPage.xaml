@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="StackLayout Page"
+             x:Class="XamarinAppDemo.StackLayoutPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Line 1"></Button>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Line 2"></Button>
+                <Button Text="Line 2"></Button>
+                <Button Text="Line 2" HorizontalOptions="FillAndExpand"></Button>
+            </StackLayout>
+            <Button Text="Fill" VerticalOptions="CenterAndExpand"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

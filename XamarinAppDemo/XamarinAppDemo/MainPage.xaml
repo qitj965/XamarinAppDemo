@@ -12,7 +12,8 @@
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
-        <Button Text="Go First Page" Clicked="Button_Clicked"></Button>
+        <Button Text="Go First Page" Clicked="FirstPageButton_Clicked"></Button>
+        <Button Text="Go StackLayout Page" Clicked="StackLayoutPageButton_Clicked"></Button>
     </StackLayout>
 
 </ContentPage>

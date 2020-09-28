@@ -14,9 +14,14 @@ namespace XamarinAppDemo
             InitializeComponent();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void FirstPageButton_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new FirstPage());
+        }
+
+        private void StackLayoutPageButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new StackLayoutPage());
         }
     }
 }
