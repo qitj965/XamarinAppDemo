@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             Title="Main Page"
              x:Class="XamarinAppDemo.MainPage">
 
     <StackLayout>
@@ -11,6 +12,7 @@
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Button Text="Go First Page" Clicked="Button_Clicked"></Button>
     </StackLayout>
 
 </ContentPage>
